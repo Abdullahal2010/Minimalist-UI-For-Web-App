@@ -1,0 +1,65 @@
+:root {
+  --link-clr: rgba(255, 255, 255, 0.7);
+}
+
+header {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.logo-div {
+  cursor: pointer;
+  /* pointer-events: none; */
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+header nav ul li a {
+  color: var(--link-clr);
+  font-family: poppins;
+  text-decoration: none;
+  padding: 8px 15px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+header nav ul li a:hover {
+  color: white;
+}
+
+.tn-btn {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid var(--link-clr);
+}
+
+.tn-btn:hover {
+  background-color: var(--link-clr);
+  color: black;
+  border: 1px solid var(--link-clr);
+}
+
+.ln-btn {
+  color: var(--link-clr);
+  border: 1px solid var(--link-clr);
+  border-radius: 5px;
+  padding: 8px 18px;
+}
+
+.ln-btn:hover {
+  background-color: white;
+  color: black;
+}

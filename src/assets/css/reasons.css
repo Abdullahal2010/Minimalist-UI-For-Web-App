@@ -1,0 +1,73 @@
+#reasons {
+  margin-top: 100px;
+}
+
+.reasons-title {
+  font-family: poppins;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.reasons-subtitle {
+  font-family: poppins;
+  color: var(--link-clr);
+}
+
+.reasons-container {
+  display: grid;
+  grid-template:
+    "reason1 reason2 reason3"
+    "reason4 reason5 reason6";
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.reason-div {
+  background-color: rgba(16, 16, 58, 0.9);
+  border: 3px solid rgb(29, 29, 58);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.reason1 {
+  border-top-left-radius: 30px;
+}
+.reason4 {
+  border-bottom-left-radius: 30px;
+}
+
+.reason3 {
+  border-top-right-radius: 30px;
+}
+.reason6 {
+  border-bottom-right-radius: 30px;
+}
+
+.reason-div {
+  filter: drop-shadow(0 0 30px rgba(35, 35, 250, 0.1));
+  transition: 0.1s;
+}
+
+.reason-div-icon {
+  width: 100px;
+  filter: drop-shadow(0 0 30px rgba(35, 35, 250, 0.3));
+  margin-bottom: 20px;
+}
+
+.reason-div-title {
+  color: rgb(135, 137, 255);
+  font-size: 1.2em;
+  font-family: poppins;
+  margin-bottom: 10px;
+}
+
+.reason-div-desc {
+  font-family: poppins;
+  color: #d3d3d3;
+}
+
+.reason-div:hover {
+  /* transform: scale(1.01); */
+  filter: drop-shadow(0 0 30px rgba(35, 35, 250, 0.3));
+  border: 3px solid rgb(56, 56, 74);
+}

@@ -1,0 +1,124 @@
+#steps {
+  margin-top: 100px;
+}
+
+:root {
+  --main-bg: rgb(5, 5, 31);
+  --text-clr: rgba(255, 255, 255, 0.8);
+  --link-clr: rgba(255, 255, 255, 0.7);
+  --str-clr: rgb(96, 96, 207);
+}
+
+.container-title {
+  text-align: center;
+  font-family: roboto;
+  font-weight: 900;
+  font-size: xx-large;
+  color: var(--text-clr) !important;
+  margin-bottom: 100px;
+}
+
+.steps-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 255, 0.15);
+  justify-content: center;
+  align-items: center;
+}
+
+.step-div-label {
+  position: absolute;
+  background-color: var(--str-clr);
+  top: -35px;
+  font-family: Poppins;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.step-div.step-2-div {
+  border: 3px solid var(--str-clr);
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 290px;
+  text-align: center;
+  font-family: poppins;
+}
+
+.step-div-btn {
+  all: unset;
+  background-color: var(--str-clr);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.step-div.step-2-div .step-div-icon {
+  width: 80px;
+  filter: drop-shadow(0 0 30px rgba(35, 35, 250, 0.3));
+  margin: 20px;
+}
+
+.step-div-title {
+  color: var(--str-clr);
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 20px;
+}
+
+.step-div-desc {
+  font-size: 0.9em;
+  line-height: 32px;
+  color: var(--link-clr);
+  margin-bottom: 20px;
+}
+
+/* 0 30px 5px rgba(35, 35, 250, 0.3),
+0 0 30px -5px rgba(35, 35, 250, 0.3), 0 0 30px -5px rgba(35, 35, 250, 0.3); */
+
+.step-1-div {
+  border: 3px solid var(--str-clr);
+  border-radius: 10px;
+  border-right: none;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  max-width: 290px;
+  padding: 15px;
+  /* max-width: 330px; */
+  text-align: center;
+  font-family: poppins;
+}
+
+.step-1-div .step-div-icon {
+  width: 70px;
+  filter: drop-shadow(0 0 30px rgba(35, 35, 250, 0.3));
+  margin: 20px;
+}
+
+.step-3-div {
+  border: 3px solid var(--str-clr);
+  border-radius: 10px;
+  border-left: none;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  max-width: 300px;
+  padding: 15px;
+  /* max-width: 330px; */
+  text-align: center;
+  font-family: poppins;
+}
+
+.step-3-div .step-div-icon {
+  width: 70px;
+  filter: drop-shadow(0 0 30px rgba(35, 35, 250, 0.3));
+  margin: 20px;
+}
