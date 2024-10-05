@@ -17,6 +17,8 @@ header {
 .logo-div {
   cursor: pointer;
   /* pointer-events: none; */
+  color: var(--link-clr);
+  text-shadow: 0 0 30px var(--str-clr);
 }
 
 header nav ul {
@@ -40,26 +42,28 @@ header nav ul li a:hover {
 }
 
 .tn-btn {
-  background-color: white;
-  color: black;
+  background-color: var(--str-clr);
+
+  color: white;
   border-radius: 5px;
-  border: 1px solid var(--link-clr);
+  border: 1px solid var(--str-clr);
 }
 
 .tn-btn:hover {
-  background-color: var(--link-clr);
-  color: black;
-  border: 1px solid var(--link-clr);
+  background-color: var(--str-clr);
+  background-color: transparent;
+  color: var(--link-clr);
+  border: 1px solid var(--str-clr);
 }
 
 .ln-btn {
   color: var(--link-clr);
-  border: 1px solid var(--link-clr);
+  border: 1px solid var(--str-clr);
   border-radius: 5px;
   padding: 8px 18px;
 }
 
 .ln-btn:hover {
-  background-color: white;
-  color: black;
+  background-color: var(--str-clr);
+  color: white;
 }

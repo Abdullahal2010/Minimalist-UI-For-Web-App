@@ -6,7 +6,7 @@
   --main-bg: rgb(5, 5, 31);
   --text-clr: rgba(255, 255, 255, 0.8);
   --link-clr: rgba(255, 255, 255, 0.7);
-  --str-clr: rgb(96, 96, 207);
+  --str-clr: rgba(70, 70, 239, 0.9);
 }
 
 .container-title {
@@ -56,10 +56,18 @@
 .step-div-btn {
   all: unset;
   background-color: var(--str-clr);
-  padding: 10px 20px;
-  border-radius: 10px;
+  border: 1px solid var(--str-clr);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
   margin-top: 10px;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.step-div-btn:hover {
+  color: var(--link-clr);
+  background-color: transparent;
 }
 
 .step-div.step-2-div .step-div-icon {

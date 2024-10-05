@@ -31,7 +31,7 @@ footer ul {
   color: white;
   text-decoration: none;
   width: 20px;
-  font-size: 1.3em;
+  font-size: 1.5em;
   height: 20px;
   display: inline-flex;
   justify-content: start;
@@ -69,13 +69,20 @@ footer ul {
 
 .footer-newsletter-div button {
   width: 50px;
+  transition: 0.3s;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: rgba(46, 46, 237, 0.9);
+  background-color: var(--str-clr);
+  border: 2px solid var(--str-clr);
   color: white;
   /* border: 3px solid rgb(29, 29, 58); */
   /* height: 100%; */
+}
+
+.footer-newsletter-div button:hover {
+  background-color: transparent;
+  color: var(--link-clr);
 }
 
 footer .footer-div-title {
@@ -95,5 +102,5 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-  text-decoration: underline;
+  color: var(--str-clr);
 }

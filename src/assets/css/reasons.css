@@ -69,5 +69,5 @@
 .reason-div:hover {
   /* transform: scale(1.01); */
   filter: drop-shadow(0 0 30px rgba(35, 35, 250, 0.3));
-  border: 3px solid rgb(56, 56, 74);
+  border: 3px solid var(--str-clr);
 }
