@@ -73,12 +73,15 @@
   background-color: var(--img-clr);
   border: 2px solid var(--str-clr);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
   font-size: 1.5rem;
   box-shadow: 0 0 30px 5px rgba(35, 35, 250, 0.3),
     0 0 30px -5px rgba(35, 35, 250, 0.3), 0 0 30px -5px rgba(35, 35, 250, 0.3);
   color: black;
+}
+
+.banner-images .banner-img1 img {
 }
 
 .banner-images .banner-img1,
